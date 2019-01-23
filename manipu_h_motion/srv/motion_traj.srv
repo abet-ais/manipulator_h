@@ -1,0 +1,4 @@
+trajectory_msgs/JointTrajectory joint_trajectory
+
+---
+int8 check_motion

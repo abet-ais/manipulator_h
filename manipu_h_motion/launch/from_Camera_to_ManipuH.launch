@@ -1,0 +1,8 @@
+<launch>
+  <!-- manipulatorHとxtionの相対関係 -->
+
+  <node
+    name="abe_kinect_tf_publisher" pkg="tf" type="static_transform_publisher" 
+    args=" 0.683 -0.045  0.558 -3.141592 1.570796 0.0 camera_rgb_frame world  33"
+    />
+</launch>
